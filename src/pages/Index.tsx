@@ -1,13 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import AppShell from "@/components/AppShell";
+import StatsCards from "@/components/StatsCards";
+import InfoPanels from "@/components/InfoPanels";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <AppShell>
+      <div className="space-y-6 max-w-[1400px] mx-auto">
+        <div>
+          <h1 className="text-2xl font-display font-bold text-foreground">Dashboard</h1>
+          <p className="text-sm text-muted-foreground mt-1">
+            Real-time inventory insights and stock management
+          </p>
+        </div>
+
+        <StatsCards />
+        <InfoPanels />
       </div>
-    </div>
+    </AppShell>
   );
 };
 
