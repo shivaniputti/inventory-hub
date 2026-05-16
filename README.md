@@ -1,33 +1,48 @@
- AI Based Voting System with Proctoring
+ # Smart Stock Inventory Optimization for Retail Stores
 
-This project is developed to provide a secure and reliable online voting system using basic AI concepts. The main idea is to ensure that only authorized users can vote and to reduce the chances of malpractice during the voting process.
+This project is developed to improve inventory management in retail stores by using smart stock monitoring and optimization techniques. The main objective of the system is to reduce stock shortages, avoid overstocking, and maintain proper product availability in the store.
 
-In this system, users first register using their details. During login, authentication is done and the system verifies the identity of the user. Basic face verification is used to match the user with stored data. While voting, continuous monitoring is done to make sure that no unfair activity is happening.
+The system helps store management to track product quantities, monitor stock levels, and identify fast-moving and slow-moving products. Based on the available stock data, the system provides better inventory handling and improves overall store efficiency.
 
-The project mainly focuses on improving transparency and security in online voting. It tries to simulate how real-time monitoring and verification can help in conducting elections in a safer way.
+This project is useful for retail businesses where maintaining accurate inventory is important for customer satisfaction and profit management.
 
-Features
+## Features
 
-- User registration and login system  
-- Identity verification using face recognition  
-- AI-based monitoring during voting  
-- Simple and user-friendly voting interface  
-- Secure handling of user data  
+- Product stock monitoring  
+- Inventory update and management  
+- Detection of low stock items  
+- Avoidance of overstocking and wastage  
+- Easy product tracking system  
+- User-friendly interface  
 
-Technologies Used
+## Technologies Used
 
-- Frontend: HTML, CSS  
-- Backend: Python  
-- Basic AI concepts for verification and monitoring  
+- HTML  
+- CSS  
+- JavaScript  
+- Python  
+- Database for storing inventory details  
 
-Project Structure
+## Working of the Project
 
-The project consists of different modules such as user authentication, verification system, and voting interface. Each module is connected to ensure smooth working of the system.
+The system stores product information such as product name, quantity, price, and stock status. Whenever products are added or removed, the inventory gets updated automatically. If the stock level goes below a certain limit, the system identifies it and helps the management take necessary action.
 
-Conclusion
+The project is designed to make inventory management simpler, faster, and more efficient compared to manual stock handling methods.
 
-This project gives an idea about how AI can be used in real-world applications like online voting. It helps in understanding security, authentication, and monitoring concepts in a practical way.
+## Applications
 
- Future Scope
+- Supermarkets  
+- Retail shops  
+- Department stores  
+- Small business inventory management  
 
-In future, the system can be improved by using more advanced AI models, better security mechanisms, and real-time database integration to handle large-scale voting systems.
+## Future Enhancements
+
+- Barcode integration  
+- Sales prediction and demand analysis  
+- Cloud database support  
+- Mobile application support  
+
+## Conclusion
+
+This project demonstrates how smart inventory optimization can improve retail store management by reducing errors, saving time, and maintaining accurate stock information. It provides a practical solution for efficient inventory handling in modern retail businesses.
